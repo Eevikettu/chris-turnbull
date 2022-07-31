@@ -5,7 +5,6 @@ nvm --version;
 nvm install 17; # or install the latest version with `nvm install node`
 nvm use 17;
 node --version;
-npm install --global yarn
+npm install --location=global yarn
 npm i -g pm2
-cd ./front-end && yarn install;
-cd ../back-end && yarn install;
+yarn install;
